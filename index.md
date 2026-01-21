@@ -37,6 +37,9 @@
 (does not work yet; would require an external server/hosting service to send data stream to that can then be decoded, hosted, and accessed remotely by github pages to put here;
 unfortunately i couldnt find a way to get github to do both the hosting of the server (communicating with OBS) and the hosting of the output stream website (communicating with the server & client);
 this is quite unfortunate cuz github pages hosting stuff on internet is free, and other stuff aint really)
+(OwnCast recommends Linode or DigitalOcean for like $5/month)
 (anyways)
 https://github.com/owncast/owncast/
 https://owncast.online/
+https://www.linode.com/docs/marketplace-docs/guides/owncast/
+https://www.digitalocean.com/products/droplets
