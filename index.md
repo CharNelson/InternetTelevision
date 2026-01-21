@@ -16,12 +16,13 @@
 (but this sorta defeats the purpose, dont it?)
 
 - locally stored video file embed
-<video width="560" height="315" src="video.mp4"></video>
+<video width="560" height="315" src="video.mp4" controls></video>
 
 - externally stored video file embed
 <video
   width="560" height="315"
-  src="https://cdn.discordapp.com/attachments/883578400831307847/1463552847257014322/Screen_Recording_20260119_132151_YouTube.mp4?ex=69723f4e&is=6970edce&hm=a4446c262f0ec2255cefda45f4f91c356733db37c70fe27bfe5d1cdb764bddb4&">
+  src="https://cdn.discordapp.com/attachments/883578400831307847/1463552847257014322/Screen_Recording_20260119_132151_YouTube.mp4?ex=69723f4e&is=6970edce&hm=a4446c262f0ec2255cefda45f4f91c356733db37c70fe27bfe5d1cdb764bddb4&"
+  controls>
 </video>
 
 - Owncast stream embed
