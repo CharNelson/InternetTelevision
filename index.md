@@ -12,11 +12,11 @@
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
-
-(but this sorta defeats the purpose, dont it?)
+(this works but sorta defeats the purpose, dont it?)
 
 - locally stored video file embed
 <video width="560" height="315" src="video.mp4" controls></video>
+(this works but is a static video file stored on the github repository)
 
 - externally stored video file embed
 <video
@@ -24,6 +24,7 @@
   src="https://cdn.discordapp.com/attachments/883578400831307847/1463552847257014322/Screen_Recording_20260119_132151_YouTube.mp4?ex=69723f4e&is=6970edce&hm=a4446c262f0ec2255cefda45f4f91c356733db37c70fe27bfe5d1cdb764bddb4&"
   controls>
 </video>
+(this works but is also a static video file, just stored&hosted elsewhere)
 
 - Owncast stream embed
 <iframe
@@ -33,3 +34,9 @@
   referrerpolicy="origin"
   allowfullscreen>
 </iframe>
+(does not work yet; would require an external server/hosting service to send data stream to that can then be decoded, hosted, and accessed remotely by github pages to put here;
+unfortunately i couldnt find a way to get github to do both the hosting of the server (communicating with OBS) and the hosting of the output stream website (communicating with the server & client);
+this is quite unfortunate cuz github pages hosting stuff on internet is free, and other stuff aint really)
+(anyways)
+https://github.com/owncast/owncast/
+https://owncast.online/
