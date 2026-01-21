@@ -27,7 +27,7 @@
 
 - Owncast stream embed
 <iframe
-  src="https://your.host/embed/video"
+  src="https://github.com/CharNelson/InternetTelevision/embed/video"
   title="Owncast"
   height="350px" width="550px"
   referrerpolicy="origin"
